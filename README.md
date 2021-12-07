@@ -23,4 +23,4 @@
 # 4 - main.py dosyası içerisinde 109. satırı okuyunuz. => Tırnakların arasına Mail'i gönderecek E-mail adresini girmeniz gerekmektedir.
 # 5 - main.py dosyası içerisinde 110. satırı okuyunuz. => Tırnakların arasına göndereceğiniz mail adresini girmeniz gerekmektedir.
 # 6 - Mail'i yollamak istiyorsanız, gmail üzerinden gerekli güvenlik ayarını açmanız gerekmetedir. Vereceğim linkten ulaşabilirsiniz. https://www.google.com/settings/u/2/security/lesssecureapps
-# 7 - Uygulamanın non-orm kısmının düzgün bir şekilde çalışması için uygulamayı run ederken main.py içerisindeki 50.satırı yorum satırından kaldırıp çalıştırmanız gerekmektedir, uygulama bir kez çalıştıktan sonra onu yeniden yorum satırı içerisine almanız gerekmektedir.
+# 7 - Uygulamanın non-orm kısmının düzgün bir şekilde çalışması için uygulamayı run ettikten sonra main.py içerisindeki 50.satırı yorum satırından kaldırıp bir kere auto refresh olmasını bekleyiniz. Bu işlem process'i kırmaya gerek olmayan bir işlemdir.
