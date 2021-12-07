@@ -12,8 +12,8 @@
 # 6  - "pip install flask" komutu ile flask'ı yükleyiniz.
 # 7  - "pip install Flask-Mail" ile flask-mail hizmetini kurunuz.
 # 8  - "pip install flask-sqlalchemy" komutu ile SQLAlchemy'i kurunuz.
-# 9  - "sqlite3 adresdata.db" komutu ile database'inizi kurmanız gerekmektedir.
-# 10 - "python3" ile python terminaline girerek, db.create_all() yaparak class'a göre db table'ını oluşturmanız gerekmektedir.
+# 9  - "sqlite3 adresdata.db" komutu ile database'inizi kurmanız gerekmektedir. Çıkacak olan sqlite3 terminalinde önce ".tables" sonra ".exit" yapmanız gerekmektedir.
+# 10 - "python3" ile python terminaline girerek, önce "from main import db"  sonra "db.create_all()" yaparak class'a göre db table'ını oluşturmanız gerekmektedir.
 
 # Uygulama kurulumu bu kadardı. Şimdi değiştirmeniz ve eklemeniz gereken yerleri doğru bir şekilde ekledikten sonra uygulama çalışacak hale gelecektir. Aşağıdaki notları okuyunuz.
 
