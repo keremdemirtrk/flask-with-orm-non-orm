@@ -107,7 +107,7 @@ def mailgonder():
     try:
         msg = Message("Merhaba Şelale Park",
           sender="", #Tırnakların arasına Mail'i gönderecek E-mail adresini girmeniz gerekmektedir.
-          recipients=["keremdemirtrk@gmail.com"]) # Tırnakların arasına göndereceğiniz mail adresini girmeniz gerekmektedir.
+          recipients=[""]) # Tırnakların arasına göndereceğiniz mail adresini girmeniz gerekmektedir.
         msg.body = "Merhaba!\nSG pls"           
         mail.send(msg)
         return 'Mail başarıyla gönderildi!'
