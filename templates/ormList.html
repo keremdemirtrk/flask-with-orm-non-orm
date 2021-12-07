@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORM List</title>
+</head>
+<body>
+            <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Surname</th>
+                <th scope="col">Address</th>
+                <th scope="col">City</th>
+                <th scope="col">Town</th>
+                <th scope="col">City Code</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for info in infos %}
+              <tr>
+                <th scope = "row">{{info.id}}</th>
+                <td>{{info.name}}</td>
+                <td>{{info.surname}}</td>
+                <td>{{info.addr}}</td>
+                <td>{{info.city}}</td>
+                <td>{{info.town}}</td>
+                <td>{{info.c_code}}</td>
+            </tr>
+              {%  endfor %}
+            </tbody>
+          </table>
+</body>
+</html>
